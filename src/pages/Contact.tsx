@@ -41,14 +41,14 @@ const Contact: React.FC = () => {
           <div className="lg:col-span-4 space-y-16">
              <div className="contact-reveal">
                 <h3 className="text-[10px] tracking-[0.3em] uppercase text-stone-500 mb-6 font-medium">Inquiries</h3>
-                <p className="text-3xl serif italic hover:opacity-60 transition-opacity">hello@lhorizon.com</p>
-                <p className="text-xl serif mt-2 font-light text-stone-500">+1 (800) HORIZON</p>
+                <p className="text-3xl serif italic hover:opacity-60 transition-opacity">vikaskatariya3004@gmail.com</p>
+                <p className="text-xl serif mt-2 font-light text-stone-500">73496 15302</p>
              </div>
              <div className="contact-reveal">
                 <h3 className="text-[10px] tracking-[0.3em] uppercase text-stone-500 mb-6 font-medium">Headquarters</h3>
                 <div className="space-y-8 text-xl serif italic font-light text-stone-700">
-                  <p>98 Bond Street,<br/>Mayfair, London</p>
-                  <p>12th Avenue, Penthouse B<br/>New York, NY</p>
+                  <p>#1287, 6th Main, 6th Cross,<br/>BEML Layout, RR Nagar,</p>
+                  <p>Bengaluru 560098<br/>Karnataka </p>
                 </div>
              </div>
              <div className="contact-reveal pt-12">

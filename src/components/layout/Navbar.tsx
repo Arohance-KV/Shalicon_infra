@@ -45,6 +45,7 @@ const Navbar: React.FC<NavbarProps> = ({ onMenuToggle, isMenuOpen }) => {
       </Link>
       <div className="hidden md:flex items-center gap-12 text-white/70 text-[10px] tracking-[0.3em] uppercase font-light">
         <Link to="/about" className="hover:text-white transition-colors">Vision</Link>
+        <Link to="/services" className="hover:text-white transition-colors">Services</Link>
         <Link to="/developments" className="hover:text-white transition-colors">Portfolio</Link>
         <Link to="/contact" className="hover:text-white transition-colors">Contact</Link>
       </div>

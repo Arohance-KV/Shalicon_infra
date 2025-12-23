@@ -47,7 +47,7 @@ const About: React.FC = () => {
           </p>
           <div className="about-text w-24 h-[1px] bg-stone-300"></div>
           <p className="about-text text-lg text-stone-600 font-light leading-relaxed max-w-md">
-           SHALICON  is a boutique real estate atelier dedicated to the pursuit of architectural excellence and atmospheric design. We curate properties that serve as private sanctuaries for the modern visionary.
+           ShaliCon Infra LLP build trust & reliability by setting benchmarks for quality and commit ourselves for the higher good through our projects. With a team of collective experience of over three decades in the construction industry, we understand and execute projects with 'time' as the essence of each.
           </p>
         </div>
 

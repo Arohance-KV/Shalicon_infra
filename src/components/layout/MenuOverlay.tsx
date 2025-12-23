@@ -49,10 +49,11 @@ const MenuOverlay: React.FC<MenuOverlayProps> = ({ isOpen, onClose }) => {
     }
   };
 
-  const navItems = [
+  const navItems: Array<{ label: string; path: string; onClick?: (e: React.MouseEvent) => void }> = [
     { label: 'The Vision', path: '/about' },
     { label: 'Developments', path: '/developments' },
-    { label: 'Lifestyle', path: '#lifestyle', onClick: handleLifestyleClick },
+    { label: 'Services', path: '/services' },
+    // { label: 'Lifestyle', path: '#lifestyle', onClick: handleLifestyleClick },
     { label: 'Contact', path: '/contact' },
   ];
 
@@ -87,9 +88,9 @@ const MenuOverlay: React.FC<MenuOverlayProps> = ({ isOpen, onClose }) => {
         </div>
         
         <div className="mt-12 md:mt-0 text-stone-400 space-y-4 font-light text-sm md:text-base tracking-widest uppercase">
-          <p className="menu-link opacity-0">London / Paris / New York</p>
-          <p className="menu-link opacity-0">Inquiries: +1 (800) HORIZON</p>
-          <p className="menu-link opacity-0">hello@lhorizon.com</p>
+          <p className="menu-link opacity-0">#1287, 6th Main, 6th Cross, BEML Layout, RR Nagar, Bengaluru 560098</p>
+          <p className="menu-link opacity-0">Inquiries: 73496 15302</p>
+          <p className="menu-link opacity-0">vikaskatariya3004@gmail.com</p>
         </div>
       </div>
     </div>

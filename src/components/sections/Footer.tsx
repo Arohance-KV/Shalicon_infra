@@ -42,10 +42,11 @@ const Footer: React.FC = () => {
       </div>
 
       <div className="flex flex-col md:flex-row justify-between items-center pt-12 border-t border-stone-800 text-[10px] tracking-[0.2em] text-stone-500 uppercase font-medium">
-        <p>&copy; 2024 SHALICON ESTATES. ALL RIGHTS RESERVED.</p>
+        <p>&copy; 2025 SHALICON ESTATES. ALL RIGHTS RESERVED.</p>
         <div className="flex space-x-8 mt-4 md:mt-0">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>
+          <a href='#' >Site Map</a>
         </div>
       </div>
     </footer>

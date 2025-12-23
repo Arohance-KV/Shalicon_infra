@@ -4,6 +4,9 @@ import Hero from '../components/sections/Hero';
 import About from '../components/sections/About';
 import Developments from '../components/sections/Developments';
 import Amenities from '../components/sections/Amenities';
+import Services from '../components/sections/Services';
+import Testimonials from '../components/sections/Testimonials';
+import Mantras from '../components/sections/Mantras';
 
 const Home: React.FC = () => {
   return (
@@ -11,7 +14,10 @@ const Home: React.FC = () => {
       <Hero />
       <About />
       <Developments />
+      <Services />
+      <Mantras />
       <Amenities />
+      <Testimonials />
     </div>
   );
 };

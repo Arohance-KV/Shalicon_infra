@@ -10,6 +10,8 @@ import Developments from '@/src/pages/Developments';
 import Contact from '@/src/pages/Contact';
 import Vision from '@/src/pages/Vision';
 import { gsap } from '@/src/lib/gsap';
+import Services from './components/sections/Services';
+import ServicesPage from './pages/ServicesPage';
 
 const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -160,6 +162,7 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<Vision />} />
+          <Route path='/services' element={<ServicesPage />} />
           <Route path="/developments" element={<Developments />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/developments/:slug" element={<PropertyDetail />} />
